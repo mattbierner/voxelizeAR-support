@@ -18,9 +18,9 @@ Devices without a LiDAR sensor are limited to voxelizing flat horizontal or vert
 
 > 🎵 **Note**: Drag to rotate the voxel grid. This lets you line up the voxel grid with real world objects.
 
-During placement, you can also adjust the size of the voxels using the voxel size slider. Smaller voxels capture more detail, while larger ones offer more chunky visuals.
+During grid placement, you can also adjust the size of the voxels using the voxel size slider. Smaller voxels capture more detail, while larger ones offer more chunky visuals.
 
-You can always return to placement mode to see which surfaces can be voxelized. However if you with to rotate the voxel grid or change voxel sizes, you must reset the grid, which clears all existing voxels.
+You can always return to placement mode to see which surfaces can be voxelized. However if you wish to rotate the voxel grid or change voxel sizes, you must reset the grid and clear all existing voxels.
 
 ## Voxelization
 
@@ -28,15 +28,15 @@ After placing the voxel grid, touch the screen to voxelize that part of the worl
 
 - If you are using a device with a LiDAR sensor, make sure you are touching a solid surface within 4 meters or so of your device. The 3D depth detection also struggles with transparent and reflective surfaces. This means that you cannot typically voxelize glass or water.
 
-    You can also switch back to the grid view to see which surfaces can be voxelized. All valid surfaces will have the grid overlay drawn on them.
+    You can also switch back to the grid view to see which surfaces can be voxelized. All valid surfaces will have the grid overlaid on them.
 
 - If you are using a device without a LiDAR sensor, make sure you are touching somewhere on a flat horizontal or vertical surface. You can also switch back to grid mode to see which surfaces have been detected.
 
-    Also keep in mind that surface detection is not instantaneous, so if it may take a few seconds because you can start drawing on a surface. Try moving your device around to aid with surface detection.
+    Also keep in mind that surface detection is not instantaneous, so if it may take a few seconds before you can start drawing on a surface. Try moving your device around to aid with surface detection.
 
 By default, touching the screen will only voxelize the point where you are touching. Tap on the brush icon to adjust the radius of the voxelization tool.
 
-In the tool panel, you can also switch the erase mode. This will remove existing voxels anywhere you touch.
+In the tool panel, you can also switch to erase mode. This will remove existing voxels anywhere you touch.
 
 
 ## Sharing
